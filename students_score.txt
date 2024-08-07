@@ -1,0 +1,5 @@
+[lok]
+maths = 1
+chin = 2
+eng = 3
+
