@@ -1,13 +1,22 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+from pytubefix import YouTube
 
-m= re.search('\D','xx135367dra')
-print(m)
-m1 = re.findall('\D','xx135367dra')
-print(m1)
-sub = re.sub('\D','*','xx135367dra')
-print(sub)
+# m= re.search('\D','xx135367dra')
+# print(m)
+# m1 = re.findall('\D','xx135367dra')
+# print(m1)
+# sub = re.sub('\D','*','xx135367dra')
+# print(sub)
+# with open('/Users/szetolok/Desktop/Coding/pythonPractise/webscrape/names.csv','r', encoding='utf-8')as f:
+#     data = f.readlines()
+#     print(data)
+
+yt = YouTube('https://www.youtube.com/watch?v=0KmUoTfGa34')
+# yt.streams.first().download()
+print(yt.title)
+
 # content = requests.get('https://pythonscraping.com/pages/page3.html').text
 # soup = BeautifulSoup(content, 'lxml')
 # for child in soup.find('div').descendants:
