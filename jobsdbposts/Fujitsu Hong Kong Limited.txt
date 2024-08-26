@@ -1,0 +1,3 @@
+job_page: /job/78216190?type=standard&ref=search-standalone 
+job title: Programmer / Software Engineer
+job_company: Fujitsu Hong Kong Limited

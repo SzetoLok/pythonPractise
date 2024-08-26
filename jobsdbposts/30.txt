@@ -1,0 +1,3 @@
+job_page: /job/78115450?type=standout&ref=search-standalone 
+job title: software engineer（Welcome fresh graduates）
+job_company: Hong Kong Shangmi Network Technology Company Limited
