@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from pytubefix import YouTube
-
+import yfinance as yf
 # m= re.search('\D','xx135367dra')
 # print(m)
 # m1 = re.findall('\D','xx135367dra')
@@ -13,10 +13,11 @@ from pytubefix import YouTube
 #     data = f.readlines()
 #     print(data)
 
-yt = YouTube('https://www.youtube.com/watch?v=0KmUoTfGa34')
-# yt.streams.first().download()
-print(yt.title)
-
+# yt = YouTube('https://www.youtube.com/watch?v=0KmUoTfGa34')
+# # yt.streams.first().download()
+# print(yt.title)
+df = yf.download("aapl")
+print(df)
 # content = requests.get('https://pythonscraping.com/pages/page3.html').text
 # soup = BeautifulSoup(content, 'lxml')
 # for child in soup.find('div').descendants:
